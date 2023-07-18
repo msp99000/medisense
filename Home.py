@@ -106,9 +106,6 @@ input_data = pd.DataFrame({
 
 input_data = pd.get_dummies(input_data)
 
-st.write(input_data)
-
-
 # Display the prediction
 st.subheader('Prediction')
 
